@@ -10,7 +10,7 @@ spec:
     targetRevision: main        # Git branch to track
     path: app_of_apps/apps   # Path where child app manifests are stored
   destination:
-    server: https://CFFEC9042A48C8939A11E6D612CF3D14.gr7.ap-south-1.eks.amazonaws.com # Deploying inside the same cluster
+    server: https://BA1CB7D6D0C5E8F4988342B4E5A2A287.gr7.ap-south-1.eks.amazonaws.com # Deploying inside the same cluster
     namespace: argocd             # Applications (CRDs) must live in argocd namespace
   syncPolicy:
     automated:
