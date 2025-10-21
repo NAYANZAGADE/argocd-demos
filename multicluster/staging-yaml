@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: cli_approach/apache      # Path to apache manifests
   destination:
-    server: https://35.222.193.93    # from `argocd cluster list`
+    server: https://BA1CB7D6D0C5E8F4988342B4E5A2A287.gr7.ap-south-1.eks.amazonaws.com      # from `argocd cluster list`
     namespace: default
   syncPolicy:
     automated:

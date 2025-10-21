@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: multicluster/online-shop # Path within the repo
   destination:
-    server: https://CFFEC9042A48C8939A11E6D612CF3D14.gr7.ap-south-1.eks.amazonaws.com # Production cluster API server URL here, run `argocd cluster list` to get the URL
+    server: https://BA1CB7D6D0C5E8F4988342B4E5A2A287.gr7.ap-south-1.eks.amazonaws.com   # Production cluster API server URL here, run `argocd cluster list` to get the URL
     namespace: default
   syncPolicy:
     automated:
