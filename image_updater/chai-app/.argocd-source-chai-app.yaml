@@ -1,3 +1,4 @@
 kustomize:
   images:
   - nayanzagade7/chai-devops:v1.0.0
+
