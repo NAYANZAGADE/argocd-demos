@@ -1,0 +1,9 @@
+controller:
+  service:
+    annotations: 
+      service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
+      service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-020ad7771af17c223,subnet-029b38e04c7728755
+
+
+      # # Ov23li5djdHD3pO3fGGc
+      # ae3c791020bc16b608f8548d6a6b72c0a60be697
