@@ -11,7 +11,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app.kubernetes.io/name: argocd-metrics # Selects services with this label, must match with ArgoCD metrics service, check with: kubectl get svc -n argocd
+      app.kubernetes.io/name: argocd-metrics   # Selects services with this label, must match with ArgoCD metrics service, check with: kubectl get svc -n argocd
   endpoints:
   - port: metrics                    # Monitors the 'metrics' port
 
